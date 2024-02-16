@@ -1,24 +1,26 @@
 // `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=ceb16806249418e1704b7dca064ec279`
 
 let cityUserInput = document.querySelector(".container .search-box input");
-let weatherInfoContainer = document.querySelector(".container .weather-info");
-let weatherImage = document.querySelector(".container .weather-info__img img");
+let weatherInfoContainer = document.querySelector(
+  ".container .weather-primary"
+);
+let weatherImage = document.querySelector(
+  ".container .weather-primary__img img"
+);
 let weatherTemperature = document.querySelector(
-  ".container .weather-info__container .weather-info__temp"
+  ".container .weather-primary__container .weather-primary__temp"
 );
 let weatherMain = document.querySelector(
-  ".container .weather-info__container .weather-info__weather"
+  ".container .weather-primary__container .weather-primary__weather"
 );
 let weatherDescription = document.querySelector(
-  ".container .weather-info__container .weather-info__description"
+  ".container .weather-primary__container .weather-primary__description"
 );
 let weatherLocation = document.querySelector(
-  ".container .weather-info .weather-info__location"
+  ".container .weather-primary .weather-primary__location"
 );
 // secondary info
-let otherWeatherInfo = document.querySelector(
-  ".container .weather-info-secondary"
-);
+let otherWeatherInfo = document.querySelector(".container .weather-secondary");
 
 const apiKey = "ceb16806249418e1704b7dca064ec279";
 

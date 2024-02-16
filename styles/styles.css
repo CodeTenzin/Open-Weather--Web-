@@ -68,7 +68,7 @@ p {
 }
 
 /* Weather Info  */
-.weather-info {
+.weather-primary {
   background: skyblue;
   text-align: center;
   padding: 15px 0;
@@ -80,7 +80,7 @@ p {
   text-align: center;
 } */
 
-.weather-info__main {
+.weather-primary__main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,28 +88,28 @@ p {
   padding: 0 20px;
 }
 
-.weather-info__img img {
+.weather-primary__img img {
   object-fit: contain;
   height: 150px;
   width: 150px;
 }
 
-.weather-info__container {
+.weather-primary__container {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: flex-start;
 }
 
-.weather-info__temp {
+.weather-primary__temp {
   font-size: 5rem;
 }
 
-.weather-info__weather {
+.weather-primary__weather {
   font-weight: 500;
 }
 
-.weather-info__description {
+.weather-primary__description {
   margin-top: 3px;
 }
 
@@ -127,7 +127,7 @@ p {
 }
 
 /* Weather Info Secondary */
-.weather-info-secondary {
+.weather-secondary {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   text-align: center;
